@@ -15,6 +15,8 @@ body {
 /* Mobile First Style */
 .container {
   /* background-color: red; */
+  display: grid;
+  gap: 1rem;
   margin: 1.75rem;
 }
 
