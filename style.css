@@ -1,4 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* margin: 1.75rem; */
+  /* margin-top: 3rem; */
+  font-family: "Barlow Semi Condensed", sans-serif;
+  color: white;
+  font-size: 13px;
+}
+
+/* Mobile First Style */
+.container {
+  /* background-color: red; */
+  margin: 1.75rem;
+}
+
+.container .cards {
+  position: relative;
+  padding: 2rem;
+  border-radius: 1rem;
+  background-color: hsl(263, 55%, 52%);
+}
+
+.cards .quotation {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  opacity: 0.3;
+}
+
+.cards .header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  height: 2rem;
+}
+
+.cards .header img {
+  /* border: 1px solid white; */
+  height: 2rem;
+  border: none;
+  border-radius: 50%;
+}
+
+.header-content h3 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.header-content p {
+  opacity: 0.5;
+}
+
+.cards > h4 {
+  margin: 0.75rem 0 1.25rem;
+  padding-top: 0.25rem;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1.3px;
+}
+
+/* .cards p {
+  font-size: 13px;
+} */
+
+.cards > p {
+  letter-spacing: 1.3px;
+  line-height: 150%;
+}
+
+/*  */
 .attribution {
+  color: black;
   font-size: 11px;
   text-align: center;
 }
