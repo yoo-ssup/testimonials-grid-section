@@ -24,7 +24,7 @@ body {
 .container .cards {
   position: relative;
   padding: 2rem;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -80,7 +80,7 @@ body {
   padding-top: 0.25rem;
   font-size: 18px;
   font-weight: 600;
-  letter-spacing: 1.3px;
+  letter-spacing: 1.2px;
 }
 
 /* .cards p {
@@ -123,7 +123,9 @@ body {
   .dark-blackish-blue {
     grid-column: 2 / 4;
   }
-
+  .white {
+    font-weight: 500;
+  }
   .item-5 {
     grid-column: 4;
     grid-row: 1 / 3;
