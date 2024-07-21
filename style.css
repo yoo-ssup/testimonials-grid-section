@@ -16,6 +16,7 @@ body {
 .container {
   /* background-color: red; */
   display: grid;
+  grid-template-columns: 1fr;
   gap: 1rem;
   margin: 1.75rem;
 }
@@ -24,7 +25,24 @@ body {
   position: relative;
   padding: 2rem;
   border-radius: 1rem;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.violet {
   background-color: hsl(263, 55%, 52%);
+}
+
+.dark-grayish-blue {
+  background-color: hsl(217, 19%, 35%);
+}
+
+.dark-blackish-blue {
+  background-color: hsl(219, 29%, 14%);
+}
+
+.white {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(217, 19%, 35%);
 }
 
 .cards .quotation {
@@ -70,7 +88,7 @@ body {
 } */
 
 .cards > p {
-  letter-spacing: 1.3px;
+  letter-spacing: 1px;
   line-height: 150%;
 }
 
@@ -82,4 +100,7 @@ body {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 640px) {
 }
