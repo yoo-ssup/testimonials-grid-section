@@ -1,3 +1,7 @@
+## Link for the live website:
+
+https://vishwasmj-testimonials-grid-section.netlify.app/
+
 # Frontend Mentor - Testimonials grid section
 
 ![Design preview for the Testimonials grid section coding challenge](./design/desktop-preview.jpg)
